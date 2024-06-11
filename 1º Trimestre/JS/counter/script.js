@@ -17,9 +17,3 @@ incrementa.addEventListener('click',function(){
   let valor = parseInt(document.querySelector('h2').innerHTML);
   document.querySelector('h2').innerHTML = ++valor;
 })
-
-
-
-
-
-

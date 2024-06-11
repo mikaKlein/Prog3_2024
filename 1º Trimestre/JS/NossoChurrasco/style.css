@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(66, 66, 62);
+    text-align: center;
+    display: grid; /* grid gera uma tela e flex não sei ao certo mas é bem bom e alinha tudo no meio*/
+    grid-template-columns: 1fr; /* 1fr nesse caso = 1 coluna*/
+    grid-template-rows: 1fr 4.4fr 1fr; /* 1fr nesse caso = 1 linha*/
+}
+
+nav{
+    background-color: aliceblue;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.calculaPessoas{
+    display: flex;
+    justify-content: center; /* alinha no centro */
+    align-items: center;
+}
+
+.calculaCarnes{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.calculaBebidas{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.calculaVegetais{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+}
+
+footer{
+    background-color: aliceblue;
+    height: 100px;
+}

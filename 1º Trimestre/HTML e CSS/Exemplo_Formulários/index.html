@@ -11,7 +11,7 @@
         <h1>Cadastro de Livros</h1>
     </header>
     <main>
-        <form method="post">
+        <form method="post"> <!-- Form gera o formulário -->
                 <div class="group">
                     <label for="titulo">Título</label>
                     <input type="text" name="titulo" placeholder="Insira o título" id="titulo" required>
@@ -20,8 +20,8 @@
                 </div>
                 <div class="group">
                     <label for="editora">Editora</label>
-                    <select name="editora" id="editora">
-                        <option value="1">Editora X</option>
+                    <select name="editora" id="editora"> <!-- Select gera a caixa de seleção -->
+                        <option value="1">Editora X</option> <!-- Option gera as opções dentro da caixa de seleção -->
                         <option value="2">Editora Y</option>
                         <option value="3">Editora Z</option>
                     </select>
@@ -36,12 +36,12 @@
                     </fieldset>
                 </div>
                 <div class="group">
-                    <fieldset>
-                        <legend>O livro está disponível?</legend>
-                        <input type="radio" name="disponivel" value="sim" id="sim">
-                        <label for="sim">Sim</label>
-                        <input type="radio" name="disponivel" value="nao" id="nao">
-                        <label for="nao">Não</label>
+                    <fieldset> <!-- Fieldset gera a caixa ao redor dos inputs -->
+                        <legend>O livro está disponível?</legend> <!-- Legend gera o texto dentro da caixa -->
+                        <input type="radio" name="disponivel" value="sim" id="sim"> <!-- Radio gera o botão de seleção -->
+                        <label for="sim">Sim</label> <!-- Label gera o texto ao lado do botão de seleção -->
+                        <input type="radio" name="disponivel" value="nao" id="nao"> <!-- Radio gera o botão de seleção -->
+                        <label for="nao">Não</label> <!-- Label gera o texto ao lado do botão de seleção -->
                     </fieldset>
                 </div>
         </form>

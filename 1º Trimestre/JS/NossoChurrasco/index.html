@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linka o arquivo de estilo -->
+    <script defer src="script.js"></script> <!-- Defer faz com que o script seja carregado após o carregamento da página -->
+</head>
+<body>
+    <nav> <!-- Nav gera a barra de navegação -->
+        <button class="pessoas">PESSOAS</button>
+        <button class="carnes">CARNES</button>
+        <button class="bebidas">BEBIDAS</button>
+        <button class="vegetais">VEGETAIS</button>
+    </nav>
+
+    <div class="calculaPessoas">
+        <div>
+            <form action="">
+                <label for="">Digite o numero de Homens:</label>
+                <input type="number" class="h">
+            </form>
+
+            <form action="">
+                <label for="">Digite o numero de Mulheres:</label>
+                <input type="number" class="m">
+            </form>
+
+            <form action="">
+                <label for="">Digite o numero de Crianças:</label>
+                <input type="number" class="c">
+            </form>
+        </div>
+        
+        <input type="submit" class="enviar">
+    </div>
+    
+    <div class="calculaCarnes">
+        <div>
+            <form action="">
+            <h1>GADO</h1>
+            <input type="checkbox" class="gado">
+            </form>    
+            <form action="">
+                <h1>FRANGO</h1>
+                <input type="checkbox" class="frango">
+            </form>
+            <form action="">
+                <h1>PORCO</h1>
+                <input type="checkbox" class="porco">
+            </form>
+        </div>
+        <input type="submit" class="enviarCarnes">
+    </div>
+
+    <div class="calculaBebidas">
+        <h1>CERVEJA</h1>
+        <input type="checkbox">
+        <h1>REFRI</h1>
+        <input type="checkbox">
+        <h1>CACHAÇA</h1>
+        <input type="checkbox">
+    </div>
+
+    <div class="calculaVegetais">
+        <form class="carvao">
+            <h1>LENHA</h1>
+            <input type="radio" name="combustivel" value="lenha">
+            <h1>CARVÃO</h1>
+            <input type="radio" name="combustivel" value="carvao">
+        </form> 
+    </div>
+
+    <footer></footer>
+</body>
+</html>

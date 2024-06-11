@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+/*Importa a fonte (não lembro como usa)*/
+
 *{
     margin:0;
     padding: 0;
@@ -14,38 +16,38 @@ body{
 }
 
 header{
-    height:10%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height:10%; /*Altura*/
+    text-align: center; /*Centraliza texto do header*/
+    display: flex; /*Display Flex*/
+    justify-content: center; /*Centraliza o conteúdo*/
+    align-items: center; /*Centraliza o conteúdo*/
 }
 
 main{
-    height:80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height:80%; /*Altura*/
+    display: flex; /*Display Flex*/
+    justify-content: center; /*Centraliza o conteúdo*/
+    align-items: center; /*Centraliza o conteúdo*/
 }
 
 form{
-    width: 50%;
+    width: 50%; /*Largura*/
 
 }
 
 .group{
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
     margin: 10px;
 }
 
 label{
-    margin: 15px;
+    margin: 15px; /*Margem*/
 }
 
 fieldset{
-    padding: 10px;
+    padding: 10px; /*Recuo para dentro do elemento*/
 }
 
 footer{
